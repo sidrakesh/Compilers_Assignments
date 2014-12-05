@@ -1,0 +1,12 @@
+S : VE AE	|	SE
+VE : T VE''
+VE'' : VE' VE''	|	e
+VE' : + T	|	* SE
+AE : # V	|	. V	|	e
+SE : NORM V	|	id
+T : V T'
+T' : X V T'	|	e
+V : ( VE )	|	VEC
+VEC : [ ID ]
+ID : id ID'
+ID' : , id ID'	|	e

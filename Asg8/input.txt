@@ -1,0 +1,26 @@
+global
+def				//Definitions
+		a:int;
+		b:int;
+		sum:float;
+		point := product
+			xpos:float;
+			ypos:float
+		end
+end
+a:=1;
+sum:=1.0;
+point.xpos:=2.331;
+point.ypos:=sum+a;
+read %d b;
+if b = 0 :
+	print %f point.xpos
+else
+	print %f point.ypos
+end;
+while a < b:
+	a:= a * 2;
+	sum := sum + 1
+end;
+return sum
+end

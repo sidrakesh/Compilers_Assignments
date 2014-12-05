@@ -1,0 +1,13 @@
+This assignment contains 2 C code, 1 Lex code, 1 header file, 2 text files, 1 makefile and this ReadMe file.
+
+C code: 25.7.c, the C code implementing both the modules.
+
+Lex code: 25.7.l, the Lex code for scanning and tokenizing the input.
+
+Header file: y.tab.h, contains the token IDs assigned to the terminal symbols.
+
+Text files:
+1. grammar.txt: contains the grammar
+2. fst-fol.txt: contains the first-follow sets.
+
+Makefile: For the compilation and to form the executables, the command 'make' is to be used. Then, when 'llparser' is generated, the user can use the command './llparser' for executing the program. It will prompt the user to enter an input expression.

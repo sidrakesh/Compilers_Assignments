@@ -1,0 +1,57 @@
+IDNTIFIER [(_(a-z))(A-Z)][_(a-z)(A-Z)(0-9)]*
+INT_CONST 0|[1-9][0-9]* 
+FLO_CONST [0-9]*.[0-9]*
+
+PLUS      +
+MINUS     -
+MULT      *
+DIV       /
+PERCENT   %
+PLUS_PLUS ++
+MINUS_MINUS --
+
+EQ        =
+PLUS_EQ   +=
+MINUS_EQ  -=
+MULT_EQ   *=
+DIV_EQ    /=
+
+EQ_EQ     ==
+LESSER    <
+LESS_EQ   <=
+GREATER   >
+GREAT_EQ  >=
+
+L_SQUARE  [
+R_SQUARE  ]
+L_PARAEN  (
+R_PARAEN  )
+L_CBRACE  {
+R_CBRACE  }
+COMMA     ,
+SEMICOL   ;
+
+SHORT     short
+INT       int
+FLOAT     float
+DOUBLE    double
+BOOL      bool
+CHAR      char
+SIGNED    signed
+UNSIGNED  unsigned
+FOR       for
+WHILE     while
+DO        do
+RETURN    return
+STRUCT    struct
+CONST     const
+VOID      void
+SWITCH    switch
+BREAK     break
+CASE      case
+CONTINUE  continue
+GOTO      goto
+LONG      long
+STATIC    static
+UNION     union
+DEFAULT   default

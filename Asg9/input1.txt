@@ -1,0 +1,28 @@
+global
+	def
+		a:int;
+		b:int;
+		sum:float;
+		xpos:float;
+		ypos:float;
+		temp: float
+	end
+
+a:=1;
+sum:=0.0;
+xpos:=2.331;
+temp:=1.5;
+ypos:=sum+temp;
+read %d b;
+
+if b = 0 :
+	print %f xpos
+else
+	print %f ypos
+end;
+while a < b:
+	a:= a * 2;
+	sum := sum + temp
+end;
+print %f sum
+end
